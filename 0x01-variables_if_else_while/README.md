@@ -1,0 +1,1 @@
+A project teaching the use of variables, if, else, and wile loops as pertaining the alx programme.
