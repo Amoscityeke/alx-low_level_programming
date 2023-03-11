@@ -1,1 +1,0 @@
-statics libraries project
