@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
+
 /**
  * main - multiplication of two argument
  * @argc: number parameter
@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
 	}
 	for (num1 = 1; num1 < argc; num1++)
 	{
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
 	mult = num1 * num2;
 	printf("%d\n", mult);
 	}
