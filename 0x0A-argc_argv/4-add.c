@@ -13,27 +13,25 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int j;
-	int result;
+	int sum = 0;
 
-	if (argc != 1)
+	if (argc == 1)
 	{
-		printf("0");
-		printf("\n");
-
+		printf("0\n");
 	}
-	if (check_num)
+	else
 	{
-		printf("Error\n");
-		return (1);
-	}
-	for (i = 1; i < argc; i++)
-	{
-		i = atoi(argv[1]);
-		j = atoi(argv[2]);
-		result = i + j;
-		printf("%d\n", result);
+		for (i = 1; i < argc; i++)
+		{
+			if (!atoi(argv[i]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			else
+				sum = sum + atoi(argv[i]);
+		}
+		printf("%d\n", sum);
 	}
 	return (0);
-
 }
