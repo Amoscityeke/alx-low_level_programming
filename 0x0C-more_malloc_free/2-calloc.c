@@ -14,7 +14,7 @@
 
 
 
-char *_memset(char *s,char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
@@ -39,7 +39,7 @@ char *_memset(char *s,char b, unsigned int n)
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *ptr;
+	char *ptr;
 
 	ptr = malloc(nmemb * size);
 
