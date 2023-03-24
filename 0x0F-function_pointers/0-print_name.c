@@ -4,7 +4,6 @@
  * print_name - printing a name using a pointer to function
  * @name:string given
  * @f:pointer to function
- *
  * Return: nothing
  */
 
