@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
+ * array_iterator - print each array element on a newline
+ * @array: array
  */
 
 
